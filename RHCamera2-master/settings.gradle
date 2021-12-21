@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name='vlc_camera'
+
+include ':java'
+include ':sdk'

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.baorongzhen.vlc_camera.AutoFitTextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvpos_y"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="650dp"
+        android:autoSizeTextType="uniform"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/takePicture"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="540dp"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="600dp"
+        android:text="退出" />
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="600dp"
+        android:autoSizeTextType="uniform"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvpos_x"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="600dp"
+        android:autoSizeTextType="uniform"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/idtv_s"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="540dp"
+        android:autoSizeTextType="uniform"
+        android:text="已识别的LED个数"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/postv"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="540dp"
+        android:autoSizeTextType="uniform"
+        android:text="定位结果"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pos_x"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="600dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="X:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pos_y"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="650dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="Y:"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
